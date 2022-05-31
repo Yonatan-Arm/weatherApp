@@ -1,0 +1,84 @@
+body {
+    background: rgb(94, 223, 200);
+    background: linear-gradient(148deg, rgba(94, 223, 200, 1) 10%, rgba(24, 116, 152, 1) 48%, rgba(240, 228, 95, 1) 86%);
+}
+
+.weatherApp {
+    margin-top: rem(30px);
+
+    .header-container {
+        margin-top: rem(30px);
+    }
+
+    h1 {
+        margin-bottom: 20px;
+    }
+
+    .filter-contianer {
+        gap: 5px;
+
+        input {
+            padding: 5px;
+            border: none;
+            border-bottom: 2px solid rgb(14, 11, 11);
+            background-color: transparent;
+        }
+
+
+        .fa-magnifying-glass {
+            font-size: 1.3rem;
+        }
+
+        button {
+            border: none;
+            background: transparent;
+        }
+    }
+
+    .actions {
+        .fa-star {
+            font-size: 1.3rem;
+        }
+
+        button {
+            border: none;
+            background: transparent;
+        }
+    }
+
+    .success {
+        @include for-mobile-layout {
+            width: 80px;
+        }
+
+        width: 150px;
+        border: 1px solid #D8D8D8;
+        padding: 5px;
+        border-radius: 5px;
+        font-family: Arial;
+        font-size: 14px;
+        background-color: rgb(236, 255, 216);
+        color: green;
+        text-align: center;
+        margin-top: 30px;
+
+
+    }
+
+}
+
+.cards-container {
+    width: 100%;
+    padding: 25px;
+    gap: 25px;
+
+}
+
+.card {
+    gap: 10px;
+    border: 2px solid #222;
+    height: 200px;
+    width: 200px;
+    box-shadow: -5px 2px 15px 3px #f0e45f;
+    border-radius: 8px;
+}

@@ -1,0 +1,21 @@
+// Externals
+
+// Setup
+@import 'setup/variables';
+@import 'setup/functions';
+@import 'setup/mixins';
+
+// Basics
+@import 'basics/base';
+@import 'basics/helpers';
+@import 'basics/layout';
+@import 'basics/animations';
+
+// Pages
+@import 'components/HomePage.scss';
+@import 'components/WeatherApp.scss';
+ 
+
+// Components
+
+
